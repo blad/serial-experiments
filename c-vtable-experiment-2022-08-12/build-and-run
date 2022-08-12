@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+rm main_executable 2> /dev/null
+
+gcc -o main_executable main.c
+
+./main_executable
+
