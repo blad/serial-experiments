@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+mkdir build/
+rm build/main
+gcc -g -o build/main main.c
+./build/main
